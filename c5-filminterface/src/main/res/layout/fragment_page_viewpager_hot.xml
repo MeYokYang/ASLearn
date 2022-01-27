@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+
+    <ImageView
+        android:id="@+id/iv_img"
+        android:src="@drawable/playbill"
+        android:layout_width="match_parent"
+        android:layout_height="333dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="6dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginTop="47dp"
+        android:layout_marginLeft="43dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_icon"
+                android:text="热映"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF"
+                android:layout_width="40dp"
+                android:layout_height="16dp"
+                android:background="#FF841A"
+                android:gravity="center"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:text="信条"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/tv_icon"
+                android:layout_marginLeft="15dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/tv_grade"
+                android:text="9.8"
+                android:textSize="15sp"
+                android:textColor="#FF831C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="92dp"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/tv_director"
+                style="@style/ViewPagerStyle"
+                android:text="导演：克里斯托弗·诺兰" />
+
+            <TextView
+                android:id="@+id/tv_player"
+                style="@style/ViewPagerStyle"
+                android:text="主演：克里斯托弗·诺兰" />
+
+            <TextView
+                android:id="@+id/tv_type"
+                style="@style/ViewPagerStyle"
+                android:text="类型：克里斯托弗·诺兰" />
+
+            <TextView
+                android:id="@+id/tv_area"
+                style="@style/ViewPagerStyle"
+                android:text="地区：克里斯托弗·诺兰" />
+
+            <TextView
+                android:id="@+id/tv_duration"
+                style="@style/ViewPagerStyle"
+                android:text="时长：克里斯托弗·诺兰" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

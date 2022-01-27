@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyTitleView">
+        <attr name="leftButtonBackground" format="reference|color" />
+        <attr name="RightButtonBackground" format="reference|color" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    tools:context=".drawer_layout.RightMenuFragment">
+
+    <TextView
+        android:id="@+id/tv_right_text"
+        android:text="我是右侧菜单"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="@android:color/holo_red_light"/>
+
+</FrameLayout>

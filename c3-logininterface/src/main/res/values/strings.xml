@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">C3-LoginInterface</string>
+
+    <string name="text_username_hint">账号</string>
+    <string name="text_pwd_hint">密码</string>
+
+
+</resources>

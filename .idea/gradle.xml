@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/c1-layout" />
+            <option value="$PROJECT_DIR$/c1-layoutx" />
+            <option value="$PROJECT_DIR$/c2-interfacejump" />
+            <option value="$PROJECT_DIR$/c3-logininterface" />
+            <option value="$PROJECT_DIR$/c4-maininterface" />
+            <option value="$PROJECT_DIR$/c5-filminterface" />
+            <option value="$PROJECT_DIR$/c6-sideslipmenu" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">C1-Layout</string>
+    <string name="main_hint1">please input your name</string>
+    <string name="main_text1">submit</string>
+</resources>

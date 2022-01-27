@@ -1,0 +1,17 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "Learn"
+include ':app'
+include ':c1-layout'
+include ':c1-layoutx'
+include ':c2-interfacejump'
+include ':c3-logininterface'
+include ':c4-maininterface'
+include ':c5-filminterface'
+include ':c6-sideslipmenu'
